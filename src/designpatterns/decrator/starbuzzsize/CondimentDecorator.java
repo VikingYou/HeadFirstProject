@@ -1,4 +1,4 @@
-package designpatterns.decrator;
+package designpatterns.decrator.starbuzzsize;
 
 /**
  * @author ycd20
@@ -6,5 +6,11 @@ package designpatterns.decrator;
  * @time 8:12
  */
 public abstract class CondimentDecorator extends Beverage {
+    public Beverage beverage;
+
+    public Size getSize() {
+        return beverage.getSize();
+    }
+
     public abstract String getDescription();
 }

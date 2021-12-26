@@ -1,4 +1,4 @@
-package designpatterns.decrator;
+package designpatterns.decrator.starbuzz;
 
 /**
  * @author ycd20
